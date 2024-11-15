@@ -9,13 +9,7 @@ Escalado de Datos: Se exploraron dos métodos de escalado:
 Sin embargo, se determinó que XGBoost no requiere escalado previo para obtener buenos resultados.
 MinMaxScaler: Transforma los datos a un rango entre 0 y 1.
 StandardScaler: Normaliza los datos para que tengan media 0 y desviación estándar 1.
-Instalación
-Clona el repositorio:
-git clone https://github.com/tuusuario/analisis-mercado-inmobiliario.git
-Instala las dependencias:
-pip install -r requirements.txt
-Ejecuta el script principal:
-python analisis_mercado.py
+
 Librerías Utilizadas
 Pandas, Numpy: Para la manipulación de datos.
 XGBoost: Para la predicción.
